@@ -1,9 +1,27 @@
-# 3D_Website
+﻿# Lumapop
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cc593f9b-7856-4f91-8fb7-97a248ee1bed/deploy-status)](https://app.netlify.com/sites/3d-website-mayur/deploys)
-<br>
-A 3d looking website using HTML, CSS and Vanilla JS.
+Interactive sparkling fruit soda landing page with bold product visuals and motion.
 
-Checkout the site live at netlify :- https://3d-website-mayur.netlify.app/
-<br>
-and at github pages :- https://mayur-666.github.io/3D_Website/
+## Screenshots
+
+| Hero | Product |
+|------|---------|
+| ![Hero](screenshots/01-hero.png) | ![Product](screenshots/02-product.png) |
+
+| Brand | Scene |
+|-------|-------|
+| ![Brand](screenshots/03-brand.png) | ![Scene](screenshots/04-scene.png) |
+
+![Full](screenshots/05-full.png)
+
+## Getting started
+
+```bash
+npx serve .
+```
+
+Or open `index.html` directly in a browser.
+
+## License
+
+Made by **Tahsan** · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)

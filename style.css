@@ -18,6 +18,19 @@ nav{
     justify-content: space-between;
     margin: 10px 40px;
 }
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: inherit;
+}
+.brand__logo{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 12px;
+}
 h3{
     font-size: 3rem;
     margin: 0 30px;
@@ -29,20 +42,20 @@ span{
 }
 @keyframes colorC {
     0%{
-        color: black;
+        color: #14532d;
     }50%{
-        color: red;
+        color: #84CC16;
     }100%{
-        color: black;
+        color: #14532d;
     }
 }
 @keyframes colorChange {
     0%{
-        color: red;
+        color: #FB7185;
     }50%{
-        color: black;
+        color: #14532d;
     }100%{
-        color: red;
+        color: #FB7185;
     }
 }
 .nav_links{
@@ -58,7 +71,7 @@ h3, .nav_links>p, .register{
 }
 .nav_links > p:hover, .register:hover{
     transform: scale(1.1);
-    color:#826969;
+    color:#4d7c0f;
 }
 .register{
     margin: 0 30px 0 0;
